@@ -28,7 +28,7 @@ class App extends Component {
     render(){
       return(
         <div className="App">
-          <h1>to do App</h1>
+          <h1>to do App React</h1>
           <AddItmes  addItem={this.addItem}/>
           <TodoItem  listes={this.state.items}  deleteItem={this.delateItem}/>
         </div>
